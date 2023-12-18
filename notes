@@ -1,0 +1,35 @@
+cdn // content delivery network
+
+crossorigin
+
+- Cross-origin resource sharing (CORS) is an HTTP feature that allows web applications to access resources from other domains. CORS is a standard mechanism for retrieving files from a third party domain or server.
+
+- react is made of javascript
+- react ( facebook - devlopers )
+
+Dom document object modal
+-The Document Object Model is a cross-platform and language-independent interface that treats an HTML or XML document as a tree structure wherein each node is an object representing a part of the document. The DOM represents a document with a logical tree
+
+react createElement -> is normal javascript object
+
+`const h1 = React.createElement(
+"h1",
+{ id: "attributes", anything: "anything" },
+"text"
+);`
+
+`{
+    "type": "h1",
+    "key": null,
+    "ref": null,
+    "props": {
+        "id": "attributes",
+        "anything": "anything",
+        "children": "text"
+    },
+    "_owner": null,
+    "_store": {}
+}`
+
+
+
