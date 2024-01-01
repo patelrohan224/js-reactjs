@@ -17,7 +17,7 @@ printName("arg2"); //rohanpatelarg2undefined
 Function.prototype.ownBindMethod = function (...args) {
   let obj = this;
   return function (...args2) {
-    // this.call(args[0], [...args.slice(1)]);
+    // this.call(args[0], ...args.slice(1));
     obj.apply(args[0], [...args.slice(1), ...args2]);
   };
 };
